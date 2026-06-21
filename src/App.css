@@ -80,8 +80,7 @@ body {
   width: 0%;
   height: 2px;
   background: cyan;
-=======
->>>>>>> 50b52201b6e26fd2af526ede1e12afb3d00fdedd
+
   transition: 0.3s;
 }
 
@@ -94,8 +93,7 @@ body {
   width: 100%;
 }
 
-=======
->>>>>>> 50b52201b6e26fd2af526ede1e12afb3d00fdedd
+
 /* Hero */
 
 .hero {
