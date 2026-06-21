@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -109,3 +110,66 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+=======
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #111827;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.section {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.dark {
+  background: #111827;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.card,
+.project-card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+}
+>>>>>>> 50b52201b6e26fd2af526ede1e12afb3d00fdedd
